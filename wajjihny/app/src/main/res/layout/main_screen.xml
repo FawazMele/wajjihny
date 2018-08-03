@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/primaryBackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.user_sai.wajjihny.MainScreen">
+
+    <ImageView
+        android:id="@+id/image_intent"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+        android:text="Hello World!" />
+
+</LinearLayout>
